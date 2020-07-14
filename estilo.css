@@ -1,4 +1,5 @@
-body{margin: 0;
+body{
+    margin: 0;
     padding: 0;
     background-color: cadetblue;
     color: white;
@@ -6,16 +7,15 @@ body{margin: 0;
 }
 
 .container{
-    width: 90%;
-    padding: 5%;
+    width: 80%;
     margin: 0 auto;
+    padding: 5%;
 }
 
 
 .cabecalho{
     width: 100%;
     float: left;
-    padding: 0.5em;
 }
 
 .cabecalho img{
@@ -24,34 +24,27 @@ body{margin: 0;
     margin-right: 0.5em;
 }
 
-#logotipo{
-    font-size: 2em;
-    font-weight: bold;
+#brand{
     float: left;
-    width: 100px;
+    width: 350px;
+    margin-bottom: 1em;
 
+}
+
+#logo{
+    float: left;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
 #lead{
     float: left;
-    position: relative;
     font-style: italic;
     font-size: 0.8em;
-    width: 250px;
-    clear: left;
+    width: 300px;
 }
 
-#whatsapp{
+.contato{
     font-size: 0.8em;
-    float: right;
-    clear: right;
-
-
-}
-
-#email{
-    font-size: 0.8em;
-    float: right;
-    clear: right;
-
+    text-align: center;
 }
