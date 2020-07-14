@@ -132,8 +132,12 @@ a{
     color: white !important;
 }
 
+a:link{
+    color: white !important;
+}
+
 a:visited{
-    color: white;
+    color: white !important;
 }
 
 
