@@ -17,3 +17,15 @@ body{
     width: 100%;
     float: left;
 }
+
+#foto{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+#foto img{
+    width: 30%;
+    border-radius: 1em;
+    border: solid white 0.2em;
+}
