@@ -1,14 +1,14 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: cadetblue;
+    background-color: black;
     color: white;
     font-family: sans-serif;
 }
 
 .container{
-    width: 80%;
-    margin: 0 auto;
+    width: 70%;
+    margin: 5em auto;
     padding: 5%;
 }
 
@@ -16,35 +16,4 @@ body{
 .cabecalho{
     width: 100%;
     float: left;
-}
-
-.cabecalho img{
-    width: 10px;
-    margin-top: 0.5em;
-    margin-right: 0.5em;
-}
-
-#brand{
-    float: left;
-    width: 350px;
-    margin-bottom: 1em;
-
-}
-
-#logo{
-    float: left;
-    font-weight: bold;
-    font-size: 1.5em;
-}
-
-#lead{
-    float: left;
-    font-style: italic;
-    font-size: 0.8em;
-    width: 300px;
-}
-
-.contato{
-    font-size: 0.8em;
-    text-align: center;
 }
