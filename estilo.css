@@ -1,2 +1,53 @@
-body{margin: 0; padding: 0; background-color: cadetblue; color: white; font-family: sans-serif;}
-.container{width: 80%; padding: 5%; margin: 0 auto;}
+body{margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+    color: white;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 90%;
+    padding: 5%;
+    margin: 0 auto;
+}
+
+
+.cabecalho{
+    width: 100%;
+    float: left;
+    padding: 0.5em;
+}
+
+.cabecalho img{width: 10px; margin-top: 0.5em; margin-right: 0.5em;}
+
+#logotipo{
+    font-size: 2em;
+    font-weight: bold;
+    float: left;
+    width: 100px;
+
+}
+
+#lead{
+    float: left;
+    position: relative;
+    font-style: italic;
+    font-size: 0.8em;
+    width: 250px;
+    clear: left;
+}
+
+#whatsapp{
+    font-size: 0.8em;
+    float: right;
+    clear: right;
+
+
+}
+
+#email{
+    font-size: 0.8em;
+    float: right;
+    clear: right;
+
+}
