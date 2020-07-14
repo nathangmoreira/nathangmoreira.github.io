@@ -42,6 +42,110 @@ body{
     font-style: italic;
 }
 
+.contato{
+    margin-top: 1.5em;
+    width: 100%;
+    float: left;
+}
+
+.contato h1{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.contato hr{
+    margin: 0 0 0.1em 0;
+    padding: 0;
+}
+
+.contato ul{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contato ul li{
+    text-align: center;
+    display: inline-block;
+    padding: 0.5em;
+    list-style-image: url(img/email_icon.png);
+}
+
+.contato ul li:hover{
+    background-color: white;
+    color: black;
+}
+
+#whatsapp::before{
+    content: '';
+    position: relative;
+    left: 0;
+    top: 0;
+    background-image: url(img/whatsapp_icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 3px;
+    padding: 1px 10px 2px 10px;
+}
+
+#email::before{
+    content: '';
+    position: relative;
+    left: 0;
+    top: 0;
+    background-image: url(img/email_icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 3px;
+    padding: 1px 10px 2px 10px;
+}
+
+#linkedin::before{
+    content: '';
+    position: relative;
+    left: 0;
+    top: 0;
+    background-image: url(img/linkedin_icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 3px;
+    padding: 1px 10px 2px 10px;
+}
+
+#behance::before{
+    content: '';
+    position: relative;
+    left: 0;
+    top: 0;
+    background-image: url(img/behance_icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 3px;
+    padding: 1px 10px 2px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
