@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+#chamada-topo-inicial{
+    background-image: url(img/fundo-topo-incial.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2em;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+#btn-chamada-topo{
+    margin-top: 1em;
+}
