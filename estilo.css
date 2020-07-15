@@ -20,9 +20,31 @@ body{
     text-align: center;
 }
 
+.mouse-hover{
+    padding: 2em;
+}
+
 .mouse-hover:hover{
     border-radius: 15px;
     color: black !important;
     background-color: white;
-    padding: 2em;
+}
+
+#jumbo-contato{
+    background-color: white !important;
+    color: black;
+    text-align: center;
+    padding: 0 !important;
+}
+
+#jumbo-contato h4{
+    font-size: 1em !important;
+}
+
+#titulo-contatos{
+    background-color: #383838;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1em;
 }
