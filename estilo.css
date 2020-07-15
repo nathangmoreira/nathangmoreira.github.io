@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    color: white;
 }
 #chamada-topo-inicial{
     background-image: url(img/fundo-topo-incial.jpg);
@@ -13,4 +14,22 @@ body{
 
 #btn-chamada-topo{
     margin-top: 1em;
+}
+
+.texto-2{
+    font-size: 1.8em;
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+hr{
+    border: solid white 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-chamada{
+    font-family: sans-serif !important;
+    text-transform: uppercase;
 }
