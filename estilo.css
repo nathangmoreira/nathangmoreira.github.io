@@ -62,3 +62,27 @@ body{
     font-size: 1em;
     font-style: italic;
 }
+
+#whatsapp{
+    color: green !important;
+}
+
+#linkedin{
+    color:#005295 !important;
+}
+
+#behance{
+    color: #0078ff !important;
+}
+
+#github{
+    color: #ff7400 !important;
+}
+
+#google{
+    color: #db4a39 !important;
+}
+
+#twitter{
+    color: #00abff !important;
+}
