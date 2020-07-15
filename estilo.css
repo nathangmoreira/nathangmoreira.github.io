@@ -15,3 +15,14 @@ body{
 #btn-chamada-topo{
     margin-top: 1em;
 }
+
+#apresentacao-servicos{
+    text-align: center;
+}
+
+.mouse-hover:hover{
+    border-radius: 15px;
+    color: black !important;
+    background-color: white;
+    padding: 2em;
+}
