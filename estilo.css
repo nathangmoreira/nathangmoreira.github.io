@@ -48,3 +48,17 @@ body{
     text-transform: uppercase;
     margin-bottom: 1em;
 }
+
+.bg-dark{
+    text-align: center !important;
+    padding: 1em;
+}
+
+#nome-perfil{
+    font-size: 2em;
+}
+
+#lead-perfil{
+    font-size: 1em;
+    font-style: italic;
+}
