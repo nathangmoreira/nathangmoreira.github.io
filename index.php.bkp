@@ -4,6 +4,7 @@
 <head>
     <title>Anitalp Mídia Digital | São Gotardo, MG</title>
     <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS -->
     <link rel="stylesheet" href="css/estilo-principal.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
