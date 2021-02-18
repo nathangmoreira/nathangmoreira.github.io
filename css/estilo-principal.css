@@ -1,0 +1,13 @@
+.navbar-text ul, .navbar-text li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.banner-topo{
+    border-radius: 0 !important;
+    background-image: url("../img/banner-home.jpg");
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px 5px black;
+}

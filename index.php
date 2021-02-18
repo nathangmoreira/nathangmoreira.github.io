@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Anitalp Mídia Digital | São Gotardo, MG</title>
+    <meta charset="utf-8">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilo-principal.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <!-- JSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<!-- Inicio do corpo do site -->
+
+<body>
+    <div class="container">
+        <!-- Menu -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><b>ANITALP</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.php?page=0">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php?page=1">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php?page=2">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php?page=3">Portifólio</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <ul class="fa-ul">
+                        <li>
+                            <a class="nav-link" href="#"><i class="fa fa-user"></i> Secretaria Virtual</a>
+                        </li>
+                    </ul>
+                </span>
+            </div>
+        </nav>
+
+        <?php
+
+            if (!@$_GET['page']){
+                $_GET['page'] = 0;
+            }
+
+            $pg = $_GET["page"];
+
+            switch($pg){
+                case 0:
+                    include_once('inicio.htm');
+                    break;
+                case 1:
+                    include_once('servicos.htm');
+                    break;                
+                case 2:
+                    include_once('contato.htm');
+                    break;
+                case 3:
+                    include_once('portifolio.htm');
+                    break;
+            }
+        ?>
+
+        
+
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+            <div class="row">
+              <div class="col-md-4">
+                <!-- <img class="mb-2" src="../../assets/brand/bootstrap-solid.svg" alt="" width="24" height="24"> -->
+                <h4 class="mb-2">Anitalp</h4>
+                <small class="d-block mb-3 text-muted">© 2018-2021</small>
+              </div>
+              <div class="col-md-4">
+                <h5>Serviços</h5>
+                <ul class="list-unstyled text-small">
+                  <li><a class="text-muted" href="#">Desenvolvimento web</a></li>
+                  <li><a class="text-muted" href="#">Artes Gráficas</a></li>
+                  <li><a class="text-muted" href="#">Serviços Digitais</a></li>
+                  <li><a class="text-muted" href="#">Desenvolvimento de Software</a></li>
+                  <li><a class="text-muted" href="#">Hospedagem de sites</a></li>                </ul>
+              </div>
+              
+              <div class="col-md-4">
+                <h5>Sobre</h5>
+                <ul class="list-unstyled text-small">
+                  <li><a class="text-muted" href="#">Equipe</a></li>
+                  <li><a class="text-muted" href="#">Localização</a></li>
+                  <li><a class="text-muted" href="#">Secretaria</a></li>
+                  <li><a class="text-muted" href="#">Contato</a></li>
+                </ul>
+              </div>
+            </div>
+          </footer>
+
+    </div>
+</body>
+
+</html>
