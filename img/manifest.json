@@ -1,9 +1,0 @@
-{
-    "name": "First PWA",
-    "short_name": "PWAApp",
-    "theme_color": "#005598",
-    "background_color": "#2196f3",
-    "display": "fullscreen",
-    "scope": "/",
-    "start_url": "/"
-  }
